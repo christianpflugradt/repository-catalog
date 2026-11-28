@@ -59,7 +59,7 @@ jobs:
         with:
           experimental: true
           install_args: node
-          version: 2026.11.11
+          version: 2026.11.12
       - name: Plan the release without publishing
         id: plan
         uses: christianpflugradt/repository-catalog/actions/release/plan@74c1911d36c4f967b43040c5179e4ca5f6b0080b # updates/actions/release

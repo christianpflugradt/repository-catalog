@@ -21,7 +21,7 @@ jobs:
         uses: jdx/mise-action@d5574b52816a478f9d4e6529a3f6ff17a8a36785 # v5.2.8
         with:
           install_args: node python
-          version: 2026.11.11
+          version: 2026.11.12
       - name: Audit the npm dependencies
         uses: christianpflugradt/repository-catalog/actions/dependency-audit/npm@0f47bb84ff5435cb6b692275fb6767f4f599abdb # updates/actions/dependency-audit
         with:

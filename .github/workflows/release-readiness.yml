@@ -37,7 +37,7 @@ jobs:
         with:
           experimental: true
           install_args: python
-          version: 2026.11.11
+          version: 2026.11.12
       - name: Verify exact-source CI prerequisites
         uses: christianpflugradt/repository-catalog/actions/release/check-ci@74c1911d36c4f967b43040c5179e4ca5f6b0080b # updates/actions/release
         with:
